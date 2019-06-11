@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>*Log-in*</title>
+<style>
+	*{
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+#wrap{
+	width: 1325px;
+	margin: 40px auto;
+	background-color: #B2EBF4;
+
+}
+.clear{
+	clear: both;
+}
+header{
+	width: 1325px; 
+	height: 300px;
+	margin-top: 10px;
+	border: dashed 5px;
+	background-color:#7CB5BE;
+	color: white;
+}
+#logoimg{
+	float: left;
+}
+#logoname{
+	padding: 20px;
+	margin: 20px 20px ;
+	margin-left: 700px;
+	margin-right: 20px;
+	color: white;
+	font-family: 휴먼편지체;
+	font-size: 35px;
+	border: none 4px;
+}
+#logoname:hover{
+	color: #FAED7D;
+}
+
+#introduce{
+	margin-left: 725px;
+}
+nav li{
+	display: inline;
+}
+nav{
+	list-style-type: none;
+	float: right;
+	margin-top: 120px;
+	margin-right: 150px;
+	font-family: 휴먼편지체;
+}
+nav li:hover{
+	color: #D941C5;
+}
+aside{
+	color: #6AA3AC;
+	padding: 30px;
+	margin-top: 1px;
+	margin-left: 20px;
+	font-family: 휴먼편지체;
+	font-weight: bold;
+	float: center;
+}
+aside li{
+	list-style-type: none;
+}
+aside li:hover{
+	color: #CEF279;
+	font-style: italic;
+}
+.dropdown{
+	display:inline-block;
+
+}
+.dropdownContents{
+	display: none;
+	background-color: #B2EBF4;
+	position:absolute;
+	width: 100px;
+}
+.dropdown:hover .dropdownContents{
+	display: block;
+}
+
+footer{
+	width: auto;
+	font-weight: bold;
+	color: #0054FF;
+}
+#page{
+	float: left;
+	margin-right: 20px;
+	font-family: 휴먼편지체;
+}
+#click{
+	float: left;
+	margin-left: 700px;
+	font-family: 휴먼편지체;
+}
+#login{
+	float: right;
+	color: #6AA3AC;
+}
+#loginleft{
+	color: #346D76;
+	float: left;
+	margin:150px 50px 200px 100px;
+	padding: 50px;
+	border: solid 5px #6AA3AC;
+}
+#loginright{
+	color: #346D76;
+	float: right;
+	margin:100px 200px 200px 50px;
+	padding: 50px;
+	border: dashed 5px #6AA3AC;
+}
+section li{
+	list-style-type: none;
+}
+
+
+</style>
+</head>
+<body>
+	<form id="entryform" action="#" method="post">
+	<table id="login">
+	<tr>
+	<th> ID</th>
+	<td><input type="id" name="id"></td>
+	<th> PASSWORD</th>
+	<td><input type="password" name="password"></td>
+	<td><input type="submit" value="LOG-IN"></td>
+	</tr>
+	</table> 
+<body id="wrap">
+
+<div class="clear">
+	<header>
+		<img id="logoimg" src="./img/chachachawoo.JPG" width="650" height="300">
+		<div id=logoname><a href="./index.html"><b>CHA-CHA & CHA-WOO HomePage</b></a></div>
+		<h5 id="introduce">"Cha-Cha" and "Cha-Woo" Page.</h5>
+		<nav>
+		<ul>
+			||<li><a href="./notice.HTML">&nbsp;NOTICE&nbsp;</a></li>||
+			<li><a href="./log_in.HTML">&nbsp;LOG-IN&nbsp;</a></li>||
+			<li>&nbsp;JOIN&nbsp;</li>||
+			<li><a href="./question.HTML">&nbsp;Q&A&nbsp;</a></li>||
+		</ul>
+	 	</nav>
+ 
+	</header>
+</div>
+	<aside>
+	<div class="dropdown">
+	<ul>=//MENU[1]//=
+	<div class="dropdownContents">
+		<li><a href="./introduce.HTML">| Introduce |</a></li><br>
+		<li>| Cha-Cha |</li><br>
+		<li>| Cha-Woo |</li><br>
+		<li><a href="./malteze.HTML">| Maltese |</a></li><br>
+	</div>
+	</div>	
+	</ul>
+	<div class="dropdown">
+	<ul>=//MENU[2]//=
+	<div class="dropdownContents">
+		<li>| Photo |</li><br>
+		<li>| News |</li><br>
+		<li>| others |</li><br>
+	</div>
+	</div>	
+	</ul>
+	</aside>
+	<div class="clear">
+	<section id=loginleft>
+		<form id="entryform" action="#" method="post">
+	<table border="1">
+	<tr>
+	<th> ID</th>
+	<td><input type="id" name="id"></td>
+	</tr>
+	<tr>
+	<th> PASSWORD</th>
+	<td><input type="password" name="password"></td>
+	<td><input type="submit" value="LOG-IN"></td>
+	</tr>
+	</table>
+	<strong> JOIN </strong> 
+	</section>
+	<section id="loginright">
+		<strong>★☆CHACHA & CHAWOO☆★<br><br><br> ☞홈페이지 가입 혜택☜<br><br></strong>
+		<ul>
+			<li>Q&A에 질문을 작성할 수 있어요.</li><br><br>
+			<li>차차와 차우에 대한 정보를 더 많이 알 수 있어요.</li>
+		</ul>
+	</section>
+</div>
+<div class="clear">
+	<footer>
+		<div id=page>
+			만든 사람 : leedayoung97(이다영)<br>
+			도움 준 이 : ☞차차, 차우☜
+		</div>
+		<div id="click">
+		<a href="#logoimg">
+			↑↑위로 가기↑↑
+		</a>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
