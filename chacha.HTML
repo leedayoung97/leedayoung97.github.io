@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cha-Cha</title>
+	<style>
+	*{
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+#wrap{
+	width: 1325px;
+	margin: 40px auto;
+	background-color: #B2EBF4;
+
+}
+.clear{
+	clear: both;
+}
+header{
+	width: 1325px; 
+	height: 300px;
+	margin-top: 10px;
+	border: dashed 5px white;
+	background-color: #7CB5BE;
+	color: white;
+}
+#logoimg{
+	float: left;
+}
+#logoname{
+	padding: 20px;
+	margin: 20px 20px ;
+	margin-left: 700px;
+	margin-right: 20px;
+	color: white;
+	font-family: 휴먼편지체;
+	font-size: 35px;
+	border: none 4px;
+}
+#logoname:hover{
+	color: #FAED7D;
+}
+
+#introduce{
+	margin-left: 725px;
+}
+nav li{
+	display: inline;
+}
+nav{
+	list-style-type: none;
+	float: right;
+	margin-top: 50px;
+	margin-right: 150px;
+	font-family: 휴먼편지체;
+}
+nav li:hover{
+	color: #D941C5;
+}
+aside{
+	color: #6AA3AC;
+	font-weight: bold;
+	padding: 30px;
+	margin-top: 1px;
+	margin-left: 20px;
+	font-family: 휴먼편지체;
+	float: center;
+}
+aside li{
+	list-style-type: none;
+	background-color: #B2EBF4;
+}
+aside li:hover{
+	color: #CEF279;
+	font-style: italic;
+}
+section{
+	margin-top: 20px;
+}
+footer{
+	border: solid 5px white;
+	margin-top: 50px;
+	margin-left: 162px;
+	float: left;
+	width: 1000px;
+	font-weight: bold;
+	color: #6AA3AC;
+}
+.dropdown{
+	display:inline-block;
+}
+.dropdownContents{
+	display: none;
+	background-color: #B2EBF4;
+	position:absolute;
+	width: 100px;
+	padding: 12px 16px;
+}
+.dropdown:hover .dropdownContents{
+	display: block;
+}
+#login{
+	float: right;
+	color: #6AA3AC;
+}
+
+
+
+</style>
+</head>
+<body id="wrap">
+	<form id="entryform" action="#" method="post">
+	<table id="login">
+	<tr>
+	<th> ID</th>
+	<td><input type="id" name="id"></td>
+	<th> PASSWORD</th>
+	<td><input type="password" name="password"></td>
+	<td><input type="submit" value="LOG-IN"></td>
+	</tr>
+	</table> 
+
+<div class="clear">
+	<header>
+		<img id="logoimg" src="./img/chachachawoo.JPG" width="650" height="300">
+		<div id=logoname><a href="./index.html"><img src="./img/title.PNG"></a></div>
+		<div id="introduce"><img src="./img/subtitle.PNG"><div>
+		<nav>
+		<ul>
+			||<li><a href="./notice.HTML">&nbsp;NOTICE&nbsp;</a></li>||
+			<li><a href="./log_in.HTML">&nbsp;LOG-IN&nbsp;</a></li>||
+			<li>&nbsp;JOIN&nbsp;</li>||
+			<li><a href="./question.HTML">&nbsp;Q&A&nbsp;</a></li>||
+		</ul>
+	 	</nav>
+ 
+	</header>
+</div>
+	<aside>
+	<div class="dropdown">
+	<ul>=//MENU[1]//=
+	<div class="dropdownContents">
+		<li><a href="./introduce.HTML">| Introduce |</a></li><br>
+		<li><a href="./chacha.HTML">| Cha-Cha |</a></li><br>
+		<li>| Cha-Woo |</li><br>
+		<li><a href="./malteze.HTML">| Maltese |</a></li><br>
+	</div>
+	</div>	
+	</ul>
+	<div class="dropdown">
+	<ul>=//MENU[2]//=
+	<div class="dropdownContents">
+		<li>| Photo |</li><br>
+		<li>| News |</li><br>
+		<li>| others |</li><br>
+	</div>
+	</div>	
+	</ul>
+	</aside>
+	<div class="clear">
+	<section>
+	<img src="./img/chacha1.PNG">
+	<img src="./img/chacha2.PNG">
+	<img src="./img/chacha3.PNG">
+	</section>
+	</div>
+	<div class="clear">
+	<footer>
+			만든 사람 : leedayoung97(이다영)<br>
+			도움 준 이 : ▶차차, 차우◀<br>
+
+		<a href="#logoimg">
+			▲위로 가기▲
+		</a>
+	</footer>
+</div>
+
+</body>
+</html>
